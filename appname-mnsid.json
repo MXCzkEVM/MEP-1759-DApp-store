@@ -1,0 +1,57 @@
+{
+  "app": {
+    "name": "Your App Name",
+    "version": "1.0.0",
+    "description": "A brief description about your app",
+    "developer": {
+      "name": "Developer Name",
+      "contact": "contact@developer.com",
+      "support": {
+        "email": "support@developer.com",
+        "website": "https://developer.com/support"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage":"required",
+      "clipboard":"required",
+      "location":"required"
+    },
+    "localizations": {
+      "en": {
+        "name": "Your App Name",
+        "description": "A brief description about your app"
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+      // Other languages can be added in similar way
+    },
+    "ageRating": "12+"
+  },
+  "store": {
+    "mnsid": "Your MNS",
+    // Can be purchased from MXC name service (MNS)
+    "category": "defi.mxc"
+    // Create your own category or just find popular ones
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "your MNS"
+    },
+    "icons": {
+      "iconSmall": "https://developer.com/icon_small.png",
+      "iconLarge": "https://developer.com/icon_large.png",
+      "namedhexagon": "0xdeveloper"
+      // Put your own address that had all the named hexagons
+    }
+  }
+}
