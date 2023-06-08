@@ -12,7 +12,7 @@ The standard defines a specific structure for the metadata, which includes key i
 
 2. **Clone your forked repository**: Navigate to your GitHub account, open the forked repository, and click the 'Code' button. Then copy the URL and clone the repository to your local system.
 
-3. **Create a new JSON file for your DApp**: In the 'dapps' directory, create a new JSON file. The file name should be the DApp's contract address with the network prefix, e.g., 'mxc_mainnet_0xYourContractAddress.json'.
+3. **Create a new JSON file for your DApp**: In the 'dapps' directory, create a new JSON file. The file name should be the DApp's contract address with the network prefix, e.g., 'appname-mnsid.json'.
 
 4. **Add your DApp's metadata**: Using the MEP-1759 specification as a guide, add the necessary metadata for your DApp in the JSON file. Please ensure that your data is correctly formatted and all required fields are filled.
 
@@ -30,6 +30,6 @@ Your pull request will be reviewed and, if everything is in order, your DApp wil
 
 ## Support
 
-For any questions or support, please contact us at support@mxc.com.
+For any questions or support, please contact us at zkevm@mxc.com.
 
 
