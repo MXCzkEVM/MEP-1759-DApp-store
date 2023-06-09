@@ -1,6 +1,7 @@
 {
   "app": {
     "name": "Your App Name",
+    "URL":"https://developer.com",
     "version": "1.0.0",
     "description": "A brief description about your app",
     "developer": {
@@ -50,8 +51,10 @@
     "icons": {
       "iconSmall": "https://developer.com/icon_small.png",
       "iconLarge": "https://developer.com/icon_large.png",
-      "namedhexagon": "0xdeveloper"
+      "namedhexagon": "0xdeveloper",
       // Put your own address that had all the named hexagons
+      "lease":"24 months",
+      "islarge":"false"
     }
   }
 }
