@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "Swap Tokens",
+    "URL":"https://wannsee-swap.mxc.com/",
+    "version": "1.0.0",
+    "description": "You can swap wide range of tokens effortlessly with minimal fees.",
+    "developer": {
+      "name": "mxc.com",
+      "contact": "support@mxc.org",
+      "support": {
+        "email": "support@mxc.org",
+        "website": "https://www.mxc.org/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage":"required",
+      "clipboard":"required",
+      "location":"required"
+    },
+    "localizations": {
+      "en": {
+        "name": "Swap Tokens",
+        "description": "You can swap wide range of tokens effortlessly with minimal fees."
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+      // Other languages can be added in similar way
+    },
+    "ageRating": "12+"
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    // Can be purchased from MXC name service (MNS)
+    "category": "defi.mxc"
+    // Create your own category or just find popular ones
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/mxc-swap-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/mxc-swap-medium.png",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      // Put your own address that had all the named hexagons
+      "lease":"24 months",
+      "islarge":"false"
+    }
+  }
+}
