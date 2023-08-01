@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Swap Tokens",
-    "URL":"https://wannsee-swap.mxc.com/",
+    "URL":"https://swap.mxc.com/",
     "version": "1.0.0",
     "description": "You can swap wide range of tokens effortlessly with minimal fees.",
     "developer": {
@@ -37,7 +37,7 @@
     // Can be purchased from MXC name service (MNS)
     "category": "defi.mxc",
     // Create your own category or just find popular ones
-    "chainid": "5167003"
+    "chainid": "18686"
     // Put your blockchain ID
   },
   "reviewAPI": {

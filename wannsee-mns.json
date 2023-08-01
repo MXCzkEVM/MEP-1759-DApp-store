@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "XSD Stable Coin",
-    "URL":"https://wannsee-xsd.mxc.com/",
+    "name": "MNS",
+    "URL":"https://wannsee-mns.mxc.com/",
     "version": "1.0.0",
-    "description": "XSD Stable Coin",
+    "description": "MXC Name Service",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "XSD Stable Coin",
-        "description": "XSD Stable Coin"
+        "name": "MNS",
+        "description": "MXC Name Service"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
@@ -35,8 +35,10 @@
   "store": {
     "mnsid": "newrd.mxc",
     // Can be purchased from MXC name service (MNS)
-    "category": "defi.mxc"
+    "category": "defi.mxc",
     // Create your own category or just find popular ones
+    "chainid": "5167003"
+    // Put your blockchain ID
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
@@ -49,8 +51,8 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/xsd-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/xsd-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/mns-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/mns-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       // Put your own address that had all the named hexagons
       "lease":"24 months",
