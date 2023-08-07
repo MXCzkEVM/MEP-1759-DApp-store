@@ -1,0 +1,62 @@
+{
+  "app": {
+    "name": "NFT Digitalize you assets",
+    "URL":"https://nft.mxc.com/",
+    "version": "1.0.0",
+    "description": "MXC zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs for the real world collectables.",
+    "developer": {
+      "name": "mxc.com",
+      "contact": "support@mxc.org",
+      "support": {
+        "email": "support@mxc.org",
+        "website": "https://www.mxc.org/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage":"required",
+      "clipboard":"required",
+      "location":"required"
+    },
+    "localizations": {
+      "en": {
+        "name": "NFT",
+        "description": "MXC zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs for the real world collectables."
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+      // Other languages can be added in similar way
+    },
+    "ageRating": "12+"
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    // Can be purchased from MXC name service (MNS)
+    "category": "defi.mxc",
+    // Create your own category or just find popular ones
+    "chainid": "18686"
+    // Put your blockchain ID
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/nft-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/nft-medium.png",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      // Put your own address that had all the named hexagons
+      "lease":"24 months",
+      "islarge":"false"
+    }
+  }
+}
