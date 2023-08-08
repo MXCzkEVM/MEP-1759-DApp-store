@@ -3,7 +3,7 @@
     "name": "Swap Info",
     "URL":"https://swap-info.mxc.com/",
     "version": "1.0.0",
-    "description": "You can swap wide range of tokens effortlessly with minimal fees.",
+    "description": "You can get Swap Analytics and Statistics",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -22,7 +22,7 @@
     "localizations": {
       "en": {
         "name": "Swap Info",
-        "description": "You can swap wide range of tokens effortlessly with minimal fees."
+        "description": "You can get Swap Analytics and Statistics"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
