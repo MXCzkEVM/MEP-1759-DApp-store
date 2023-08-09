@@ -51,8 +51,8 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/mxc-swap-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/mxc-swap-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/mxc-analytics-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/mxc-analytics-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       // Put your own address that had all the named hexagons
       "lease":"24 months",
