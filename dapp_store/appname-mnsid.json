@@ -37,6 +37,7 @@
     // Can be purchased from MXC name service (MNS)
     "category": "defi.mxc"
     // Create your own category or just find popular ones
+    // Put your blockchain ID
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",

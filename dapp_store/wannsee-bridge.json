@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC zkEVM explorer",
-    "URL":"https://explorer.mxc.com/",
+    "name": "Bridge & Faucet",
+    "URL": "https://wannsee-bridge.mxc.com/",
     "version": "1.0.0",
-    "description": "Welcome to MXC zkEVM explorer",
+    "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens.",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -15,30 +15,30 @@
     "permissions": {
       "notifications": "required",
       "camera": "required",
-      "storage":"required",
-      "clipboard":"required",
-      "location":"required"
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
     },
     "localizations": {
       "en": {
-        "name": "MXC zkEVM explorer",
-        "description": "Welcome to MXC zkEVM explorer"
+        "name": "Bridge & Faucet",
+        "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
         "description": "Una breve descripción de tu aplicación"
       }
-      // Other languages can be added in similar way
     },
-    "ageRating": "12+"
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
   },
   "store": {
     "mnsid": "newrd.mxc",
-    // Can be purchased from MXC name service (MNS)
     "category": "defi.mxc",
-    // Create your own category or just find popular ones
-    "chainid": "18686"
-    // Put your blockchain ID
+    "chainid": "5167003"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
@@ -51,12 +51,11 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/explorer-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/explorer-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/bridge-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/bridge-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
-      // Put your own address that had all the named hexagons
-      "lease":"24 months",
-      "islarge":"false"
+      "lease": "24 months",
+      "islarge": "false"
     }
   }
 }
