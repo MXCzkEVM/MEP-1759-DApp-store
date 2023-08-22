@@ -2,7 +2,7 @@
     "name": "MXC DApp Store",
     "dapps": [
         {
-            "dappUrl": "l2-bridge.json",
+            "dappUrl": "zkevm-swap-info.json",
             "enabled": true
         },
         {
@@ -51,6 +51,10 @@
         },
         {
             "dappUrl": "zkevm-xsd.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "wannsee-swap-info.json",
             "enabled": true
         }
     ]
