@@ -2,11 +2,7 @@
     "name": "MXC DApp Store",
     "dapps": [
         {
-            "dappUrl": "l2-bridge.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "l3-bridge.json",
+            "dappUrl": "wannsee-explorer.json",
             "enabled": true
         },
         {
@@ -14,7 +10,15 @@
             "enabled": true
         },
         {
-            "dappUrl": "wannsee-explorer.json",
+            "dappUrl": "wannsee-xsd.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "l2-bridge.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "l3-bridge.json",
             "enabled": true
         },
         {
@@ -27,10 +31,6 @@
         },
         {
             "dappUrl": "wannsee-swap.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "wannsee-xsd.json",
             "enabled": true
         },
         {
