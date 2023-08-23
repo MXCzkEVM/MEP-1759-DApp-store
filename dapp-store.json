@@ -3,7 +3,7 @@
     "dapps": [
         {
             "dappUrl": "wannsee-explorer.json",
-            "enabled": true
+            "enabled": false
         },
         {
             "dappUrl": "wannsee-bridge.json",
