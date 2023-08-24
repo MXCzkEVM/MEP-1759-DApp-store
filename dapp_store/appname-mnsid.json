@@ -30,7 +30,11 @@
       }
       // Other languages can be added in similar way
     },
-    "ageRating": "12+"
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
   },
   "store": {
     "mnsid": "Your MNS",

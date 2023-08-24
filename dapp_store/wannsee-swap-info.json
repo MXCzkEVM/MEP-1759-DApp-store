@@ -29,7 +29,11 @@
         "description": "Una breve descripción de tu aplicación"
       }
     },
-    "ageRating": "12+"
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
   },
   "store": {
     "mnsid": "newrd.mxc",
