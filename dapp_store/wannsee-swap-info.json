@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Swap Info",
-    "URL":"https://wannsee-swap-info.mxc.com/",
+    "URL": "https://wannsee-swap-info.mxc.com/",
     "version": "1.0.0",
     "description": "You can get Swap Analytics and Statistics",
     "developer": {
@@ -15,9 +15,9 @@
     "permissions": {
       "notifications": "required",
       "camera": "required",
-      "storage":"required",
-      "clipboard":"required",
-      "location":"required"
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
     },
     "localizations": {
       "en": {
@@ -28,17 +28,17 @@
         "name": "El Nombre de tu Aplicación",
         "description": "Una breve descripción de tu aplicación"
       }
-      // Other languages can be added in similar way
     },
-    "ageRating": "12+"
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
   },
   "store": {
     "mnsid": "newrd.mxc",
-    // Can be purchased from MXC name service (MNS)
     "category": "defi.mxc",
-    // Create your own category or just find popular ones
     "chainid": "5167003"
-    // Put your blockchain ID
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
@@ -54,9 +54,8 @@
       "iconSmall": "mxc_dapps_thumbnails/mxc-analytics-small.png",
       "iconLarge": "mxc_dapps_thumbnails/mxc-analytics-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
-      // Put your own address that had all the named hexagons
-      "lease":"24 months",
-      "islarge":"false"
+      "lease": "24 months",
+      "islarge": false
     }
   }
 }
