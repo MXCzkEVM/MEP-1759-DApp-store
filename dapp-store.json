@@ -56,6 +56,10 @@
         {
             "dappUrl": "zkevm-swap-info.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "wannsee-gmx.json",
+            "enabled": true
         }
     ]
 }
