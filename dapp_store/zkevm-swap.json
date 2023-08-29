@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Swap Tokens",
-    "URL": "https://swap.mxc.com/",
+    "URL": "https://swap.mxc.com/#/swap",
     "version": "1.0.0",
     "description": "You can swap wide range of tokens effortlessly with minimal fees.",
     "developer": {
