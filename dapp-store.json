@@ -60,6 +60,10 @@
         {
             "dappUrl": "wannsee-gmx.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "wannsee-l3-bridge.json",
+            "enabled": true
         }
     ]
 }
