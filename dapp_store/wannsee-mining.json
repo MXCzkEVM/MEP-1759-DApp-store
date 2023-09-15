@@ -31,7 +31,8 @@
     },
     "ageRating": "12+",
     "supportedPlatforms": [
-      "android"
+      "android",
+      "iOS"
     ]
   },
   "store": {
@@ -51,7 +52,7 @@
     },
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/mining-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/",
+      "iconLarge": "mxc_dapps_thumbnails/mining-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
       "islarge": true
