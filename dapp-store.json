@@ -64,6 +64,10 @@
         {
             "dappUrl": "wannsee-l3-bridge.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "matchx-store.json",
+            "enabled": true
         }
     ]
 }
