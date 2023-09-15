@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "Mining Application",
+    "URL": "https://wannsee-mining.matchx.io/",
+    "version": "1.0.0",
+    "description": "Mining Application to mine MXC tokens",
+    "developer": {
+      "name": "mxc.com",
+      "contact": "support@mxc.org",
+      "support": {
+        "email": "support@mxc.org",
+        "website": "https://www.mxc.org/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
+    },
+    "localizations": {
+      "en": {
+        "name": "Mining Application",
+        "description": "Mining Application to mine MXC tokens"
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+    },
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android"
+    ]
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    "category": "defi.mxc",
+    "chainid": "5167003"
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/mining-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      "lease": "24 months",
+      "islarge": true
+    }
+  }
+}
