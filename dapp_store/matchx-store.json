@@ -5,11 +5,11 @@
     "version": "1.0.0",
     "description": "One stop place to buy all MatchX Products",
     "developer": {
-      "name": "mxc.com",
-      "contact": "support@mxc.org",
+      "name": "MatchX GmbH",
+      "contact": "support@matchx.io",
       "support": {
-        "email": "support@mxc.org",
-        "website": "https://www.mxc.org/"
+        "email": "support@matchx.io",
+        "website": "https://matchx.io/"
       }
     },
     "permissions": {
