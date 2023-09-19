@@ -1,0 +1,61 @@
+{
+  "app": {
+    "name": "MatchX store",
+    "URL": "https://matchx.io/collections/all",
+    "version": "1.0.0",
+    "description": "One stop place to buy all MatchX Products",
+    "developer": {
+      "name": "mxc.com",
+      "contact": "support@mxc.org",
+      "support": {
+        "email": "support@mxc.org",
+        "website": "https://www.mxc.org/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
+    },
+    "localizations": {
+      "en": {
+        "name": "MatchX store",
+        "description": "One stop place to buy all MatchX Products"
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+    },
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    "category": "defi.mxc",
+    "chainid": "18686"
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/store-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/store-medium.png",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      "lease": "24 months",
+      "islarge": false
+    }
+  }
+}

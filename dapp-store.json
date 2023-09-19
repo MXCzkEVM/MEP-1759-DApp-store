@@ -71,6 +71,11 @@
         },        {
             "dappUrl": "zkevm-mining.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "matchx-store.json",
+            "enabled": true
         }
+
     ]
 }
