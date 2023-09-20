@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "Mining Application",
-    "URL": "https://wannsee-mining.matchx.io/",
+    "name": "MatchX store",
+    "URL": "https://matchx.io/collections/all",
     "version": "1.0.0",
-    "description": "Mining Application to mine MXC tokens",
+    "description": "One stop place to buy all MatchX Products",
     "developer": {
       "name": "MatchX GmbH",
       "contact": "support@matchx.io",
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "Mining Application",
-        "description": "Mining Application to mine MXC tokens"
+        "name": "MatchX store",
+        "description": "One stop place to buy all MatchX Products"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
@@ -38,7 +38,7 @@
   "store": {
     "mnsid": "newrd.mxc",
     "category": "defi.mxc",
-    "chainid": "5167003"
+    "chainid": "18686"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
@@ -51,11 +51,11 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/mining-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/mining-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/store-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/store-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
-      "islarge": true
+      "islarge": false
     }
   }
 }

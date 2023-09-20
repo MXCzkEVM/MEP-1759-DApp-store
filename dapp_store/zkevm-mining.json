@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Mining Application",
-    "URL": "https://wannsee-mining.matchx.io/",
+    "URL": "https://mining.matchx.io/",
     "version": "1.0.0",
     "description": "Mining Application to mine MXC tokens",
     "developer": {
@@ -38,7 +38,7 @@
   "store": {
     "mnsid": "newrd.mxc",
     "category": "defi.mxc",
-    "chainid": "5167003"
+    "chainid": "18686"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
