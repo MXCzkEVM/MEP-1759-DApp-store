@@ -76,6 +76,10 @@
         {
             "dappUrl": "matchx-store.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "mxc-org.json",
+            "enabled": true
         }
     ]
 }
