@@ -68,7 +68,8 @@
         {
             "dappUrl": "wannsee-mining.json",
             "enabled": true
-        },        {
+        },        
+        {
             "dappUrl": "zkevm-mining.json",
             "enabled": true
         },
