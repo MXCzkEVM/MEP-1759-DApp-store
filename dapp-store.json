@@ -79,6 +79,10 @@
         {
             "dappUrl": "mxc-org.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "zkevm-distro.json",
+            "enabled": true
         }
     ]
 }
