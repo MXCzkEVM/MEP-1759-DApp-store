@@ -51,8 +51,8 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/storeAmazon-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/storeAmazon-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/store-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/store-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
       "islarge": true
