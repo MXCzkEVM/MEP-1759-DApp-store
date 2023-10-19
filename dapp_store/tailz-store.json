@@ -1,0 +1,61 @@
+{
+  "app": {
+    "name": "Tailz store",
+    "URL": "https://www.tailz.xyz/",
+    "version": "1.0.0",
+    "description": "Tailz enables anyone to walk their pets and earn crypto as a result.",
+    "developer": {
+      "name": "Tailz",
+      "contact": "support@tailz.xyz",
+      "support": {
+        "email": "support@tailz.xyz",
+        "website": "https://www.tailz.xyz/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
+    },
+    "localizations": {
+      "en": {
+        "name": "Tailz store",
+        "description": "Tailz enables anyone to walk their pets and earn crypto as a result."
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+    },
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    "category": "defi.mxc",
+    "chainid": "18686"
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/tailz-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/tailz-medium.png",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      "lease": "24 months",
+      "islarge": true
+    }
+  }
+}

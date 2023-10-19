@@ -84,6 +84,10 @@
         {
             "dappUrl": "zkevm-distro.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "tailz-store.json",
+            "enabled": true
         }
     ]
 }
