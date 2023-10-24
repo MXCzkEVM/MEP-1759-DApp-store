@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Disco Distro",
-    "URL": "https://mns.mxc.com/",
+    "URL": "https://discodistro.vercel.app",
     "version": "1.0.0",
     "description": "This dApp will allow users to create and deploy their own tokens",
     "developer": {
