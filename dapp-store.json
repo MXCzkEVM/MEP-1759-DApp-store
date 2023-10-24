@@ -88,6 +88,10 @@
         {
             "dappUrl": "tailz-store.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "one-search.json",
+            "enabled": true
         }
     ]
 }
