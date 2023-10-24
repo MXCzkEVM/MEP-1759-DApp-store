@@ -1,0 +1,61 @@
+{
+  "app": {
+    "name": "OneSearch",
+    "URL": "https://www.onesearch.com/",
+    "version": "1.0.0",
+    "description": "Privacy-focused search engine for you.",
+    "developer": {
+      "name": "OneSearch",
+      "contact": "",
+      "support": {
+        "email": "",
+        "website": "https://www.onesearch.com/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
+    },
+    "localizations": {
+      "en": {
+        "name": "OneSearch",
+        "description": "Privacy-focused search engine for you."
+      },
+      "es": {
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
+      }
+    },
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    "category": "defi.mxc",
+    "chainid": "18686"
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/onesearch-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/onesearch-medium.png",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      "lease": "24 months",
+      "islarge": false
+    }
+  }
+}
