@@ -92,6 +92,10 @@
         {
             "dappUrl": "one-search.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "zkevm-airdrop-dashboard.json",
+            "enabled": true
         }
     ]
 }
