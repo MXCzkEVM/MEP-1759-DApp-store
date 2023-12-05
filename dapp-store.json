@@ -10,10 +10,6 @@
             "enabled": true
         },
         {
-            "dappUrl": "l3-bridge.json",
-            "enabled": true
-        },
-        {
             "dappUrl": "wannsee-mns.json",
             "enabled": true
         },
@@ -34,7 +30,23 @@
             "enabled": true
         },
         {
+            "dappUrl": "wannsee-mining.json",
+            "enabled": true
+        },
+        {
             "dappUrl": "zkevm-explorer.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "zkevm-swap.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "l3-bridge.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "zkevm-swap-info.json",
             "enabled": true
         },
         {
@@ -46,17 +58,14 @@
             "enabled": true
         },
         {
-            "dappUrl": "zkevm-swap.json",
-            "enabled": true
-        },
-        {
             "dappUrl": "zkevm-xsd.json",
             "enabled": true
         },
         {
-            "dappUrl": "zkevm-swap-info.json",
+            "dappUrl": "zkevm-airdrop-dashboard.json",
             "enabled": true
         },
+
         {
             "dappUrl": "wannsee-gmx.json",
             "enabled": true
@@ -65,10 +74,6 @@
             "dappUrl": "wannsee-l3-bridge.json",
             "enabled": true
         },
-        {
-            "dappUrl": "wannsee-mining.json",
-            "enabled": true
-        },        
         {
             "dappUrl": "zkevm-mining.json",
             "enabled": true
@@ -91,10 +96,6 @@
         },
         {
             "dappUrl": "one-search.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-airdrop-dashboard.json",
             "enabled": true
         }
     ]

@@ -55,7 +55,7 @@
       "iconLarge": "mxc_dapps_thumbnails/tailz-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
-      "islarge": true
+      "islarge": false
     }
   }
 }
