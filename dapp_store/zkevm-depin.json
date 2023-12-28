@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "DePINscriptions",
-    "URL": "http://depinscriptions.mxc.com/",
+    "URL": "https://depinscriptions.mxc.com/",
     "version": "1.0.0",
     "description": "You can mint your country DePINscriptions with your locations",
     "developer": {
