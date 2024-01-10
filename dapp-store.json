@@ -101,6 +101,10 @@
         {
             "dappUrl": "zkevm-depin.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "wannsee-depin.json",
+            "enabled": true
         }
     ]
 }
