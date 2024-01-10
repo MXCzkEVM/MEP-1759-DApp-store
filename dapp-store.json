@@ -97,6 +97,10 @@
         {
             "dappUrl": "one-search.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "zkevm-depin.json",
+            "enabled": true
         }
     ]
 }
