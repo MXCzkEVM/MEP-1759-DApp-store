@@ -6,19 +6,7 @@
             "enabled": true
         },
         {
-            "dappUrl": "wannsee-explorer.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "wannsee-mns.json",
-            "enabled": true
-        },
-        {
             "dappUrl": "wannsee-nft.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "wannsee-swap.json",
             "enabled": true
         },
         {
