@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC zkEVM explorer",
-    "URL": "https://wannsee-explorer.mxc.com/",
+    "name": "MNS",
+    "URL": "https://geneva-mns.moonchain.com/",
     "version": "1.0.0",
-    "description": "Welcome to MXC zkEVM explorer",
+    "description": "MXC Name Service",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC zkEVM explorer",
-        "description": "Welcome to MXC zkEVM explorer"
+        "name": "MNS",
+        "description": "MXC Name Service"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
@@ -38,7 +38,7 @@
   "store": {
     "mnsid": "newrd.mxc",
     "category": "defi.mxc",
-    "chainid": "5167003"
+    "chainid": "5167004"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
@@ -51,11 +51,11 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/explorer-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/explorer-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/mns-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/mns-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
-      "islarge": true
+      "islarge": false
     }
   }
 }
