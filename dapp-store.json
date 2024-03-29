@@ -105,6 +105,18 @@
         {
             "dappUrl": "wannsee-depin.json",
             "enabled": true
+        },
+        {
+            "dappUrl": "geneva-explorer.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "geneva-mns.json",
+            "enabled": true
+        },
+        {
+            "dappUrl": "geneva-swap.json",
+            "enabled": true
         }
     ]
 }
