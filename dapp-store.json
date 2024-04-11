@@ -50,7 +50,7 @@
             "enabled": true
         },
         {
-            "dappUrl": "zkevm-airdrop-dashboard.json",
+            "dappUrl": "moonchain-airdrop-dashboard.json",
             "enabled": true
         },
 
@@ -91,7 +91,7 @@
             "enabled": true
         },
         {
-            "dappUrl": "wannsee-depin.json",
+            "dappUrl": "geneva-depin.json",
             "enabled": true
         },
         {
