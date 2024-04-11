@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC Airdrop Portal",
-    "URL": "https://airdrop.mxc.com/",
+    "name": "DePINscriptions",
+    "URL": "https://geneva-depinscriptions.moonchain.com/",
     "version": "1.0.0",
-    "description": "One stop place to check your progress towards airdrops and leaderboard.",
+    "description": "You can mint your country DePINscriptions with your locations",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC Airdrop Portal",
-        "description": "One stop place to check your progress towards airdrops and leaderboard."
+        "name": "Swap Tokens",
+        "description": "You can swap wide range of tokens effortlessly with minimal fees."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
@@ -38,7 +38,7 @@
   "store": {
     "mnsid": "newrd.mxc",
     "category": "defi.mxc",
-    "chainid": "18686"
+    "chainid": "5167004"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
@@ -51,11 +51,11 @@
       "mnsId": "newrd.mxc"
     },
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/zksdashboard-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/zksdashboard-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/depinscriptions-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/depinscriptions-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
-      "islarge": false
+      "islarge": true
     }
   }
 }
