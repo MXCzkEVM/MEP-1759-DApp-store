@@ -31,8 +31,7 @@
     },
     "ageRating": "12+",
     "supportedPlatforms": [
-      "android",
-      "iOS"
+      "android"
     ]
   },
   "store": {
