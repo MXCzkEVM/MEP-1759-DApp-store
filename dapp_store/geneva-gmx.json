@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "MXC GMX",
-    "URL": "https://wannsee-gmx.mxc.com/",
+    "URL": "https://mxc-frontend.vercel.app/#/trade",
     "version": "1.0.0",
     "description": "MXC GMX Leverage Platform",
     "developer": {
@@ -38,7 +38,7 @@
   "store": {
     "mnsid": "newrd.mxc",
     "category": "defi.mxc",
-    "chainid": "5167003"
+    "chainid": "5167004"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",

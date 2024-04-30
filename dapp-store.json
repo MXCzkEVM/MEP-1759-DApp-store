@@ -1,110 +1,114 @@
 {
-    "name": "MXC DApp Store",
-    "dapps": [
-        {
-            "dappUrl": "wannsee-bridge.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-nft.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-xsd.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-swap-info.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "wannsee-mining.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-explorer.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-swap.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "l3-bridge.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-swap-info.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-mns.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-nft.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-xsd.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "moonchain-airdrop-dashboard.json",
-            "enabled": true
-        },
+  "name": "MXC DApp Store",
+  "dapps": [
+    {
+      "dappUrl": "wannsee-bridge.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-nft.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-xsd.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-swap-info.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "wannsee-mining.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-explorer.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-swap.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "l3-bridge.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-swap-info.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-mns.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-nft.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-xsd.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "moonchain-airdrop-dashboard.json",
+      "enabled": true
+    },
 
-        {
-            "dappUrl": "wannsee-gmx.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-l3-bridge.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-mining.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "matchx-store.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "mxc-org.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-distro.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "tailz-store.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "one-search.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "zkevm-depin.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-depin.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-explorer.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-mns.json",
-            "enabled": true
-        },
-        {
-            "dappUrl": "geneva-swap.json",
-            "enabled": true
-        }
-    ]
+    {
+      "dappUrl": "geneva-gmx.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-faucet.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-l3-bridge.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-mining.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "matchx-store.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "mxc-org.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-distro.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "tailz-store.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "one-search.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-depin.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-depin.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-explorer.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-mns.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "geneva-swap.json",
+      "enabled": true
+    }
+  ]
 }
