@@ -50,6 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/airdrops.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/zksdashboard-small.png",
       "iconLarge": "mxc_dapps_thumbnails/zksdashboard-medium.png",

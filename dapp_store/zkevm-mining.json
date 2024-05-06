@@ -50,6 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/mining.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/mining-small.png",
       "iconLarge": "mxc_dapps_thumbnails/mining-medium.png",

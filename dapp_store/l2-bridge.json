@@ -50,6 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/bridge.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/L2-bridge-small.png",
       "iconLarge": "mxc_dapps_thumbnails/L2-bridge-medium.png",
