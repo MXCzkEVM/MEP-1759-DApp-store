@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC zkEVM explorer",
+    "name": "Moonchain Geneva Explorer",
     "URL": "https://geneva-explorer.moonchain.com/",
     "version": "1.0.0",
-    "description": "Welcome to MXC zkEVM explorer",
+    "description": "Welcome to Moonchain Geneva Explorer",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC zkEVM explorer",
-        "description": "Welcome to MXC zkEVM explorer"
+        "name": "Moonchain Geneva Explorer",
+        "description": "Welcome to Moonchain Geneva Explorer"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

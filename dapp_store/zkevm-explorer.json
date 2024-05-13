@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC zkEVM explorer",
+    "name": "Moonchain Explorer",
     "URL": "https://explorer.mxc.com/",
     "version": "1.0.0",
-    "description": "Welcome to MXC zkEVM explorer",
+    "description": "Welcome to Moonchain Explorer",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC zkEVM explorer",
-        "description": "Welcome to MXC zkEVM explorer"
+        "name": "Moonchain Explorer",
+        "description": "Welcome to Moonchain Explorer"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
