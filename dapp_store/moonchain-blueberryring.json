@@ -50,9 +50,10 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/blueberryring.svg",
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/explorer-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/explorer-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/blueberryring.png",
+      "iconLarge": "mxc_dapps_thumbnails/blueberryring.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
       "islarge": true

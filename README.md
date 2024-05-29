@@ -4,7 +4,7 @@
 
 MEP-1759 is a metadata standard for decentralized applications (DApps) to be listed on the MXC DApp Store. This standard is designed to ensure that the information about DApps is presented consistently and comprehensively, enhancing user experience and interoperability.
 
-The standard defines a specific structure for the metadata, which includes key information about the DApp such as name, version, description, developer info, permissions, icons, localizations, age rating, and more.
+The standard defines a specific structure for the metadata, which includes key information about the DApp such as name, version, description, developer info, permissions, icons(svgs and/or pngs), localizations, age rating, and more.
 
 ## How to Submit Your DApp
 
