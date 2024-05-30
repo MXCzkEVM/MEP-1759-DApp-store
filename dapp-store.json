@@ -53,6 +53,10 @@
       "dappUrl": "moonchain-airdrop-dashboard.json",
       "enabled": true
     },
+    {
+      "dappUrl": "moonchain-blueberryring.json",
+      "enabled": true
+    },
 
     {
       "dappUrl": "geneva-gmx.json",
