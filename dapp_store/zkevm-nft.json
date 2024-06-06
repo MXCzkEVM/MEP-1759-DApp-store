@@ -31,8 +31,7 @@
     },
     "ageRating": "12+",
     "supportedPlatforms": [
-      "android",
-      "iOS"
+      "android"
     ]
   },
   "store": {
@@ -50,6 +49,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/nft.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/nft-small.png",
       "iconLarge": "mxc_dapps_thumbnails/nft-medium.png",

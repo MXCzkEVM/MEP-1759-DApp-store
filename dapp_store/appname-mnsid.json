@@ -53,6 +53,7 @@
     "body": {
       "mnsId": "your MNS"
     },
+    "icon": "mxc_dapps_thumbnails/mns.svg",
     "icons": {
       "iconSmall": "https://developer.com/icon_small.png",
       "iconLarge": "https://developer.com/icon_large.png",

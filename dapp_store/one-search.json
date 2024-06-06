@@ -50,6 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/one_search.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/onesearch-small.png",
       "iconLarge": "mxc_dapps_thumbnails/onesearch-medium.png",

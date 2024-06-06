@@ -50,6 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
+    "icon": "mxc_dapps_thumbnails/mxc.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/mxc-small.png",
       "iconLarge": "mxc_dapps_thumbnails/mxc-medium.png",
