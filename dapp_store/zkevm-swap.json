@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Swap Tokens",
-    "URL": "https://swap.mxc.com/#/swap",
+    "URL": "https://swap.moonchain.com",
     "version": "1.0.0",
     "description": "You can swap wide range of tokens effortlessly with minimal fees.",
     "developer": {
