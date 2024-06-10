@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "MNS",
-    "URL": "https://mns.mxc.com/",
+    "URL": "https://mns.moonchain.com/",
     "version": "1.0.0",
     "description": "MXC Name Service",
     "developer": {
