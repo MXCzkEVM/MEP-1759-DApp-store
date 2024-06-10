@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Swap Info",
-    "URL": "https://swap-info.mxc.com/",
+    "URL": "https://swap-info.moonchain.com/",
     "version": "1.0.0",
     "description": "You can get Swap Analytics and Statistics",
     "developer": {
