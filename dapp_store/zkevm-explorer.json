@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Moonchain Explorer",
-    "URL": "https://explorer.mxc.com/",
+    "URL": "https://explorer.moonchain.com/",
     "version": "1.0.0",
     "description": "Welcome to Moonchain Explorer",
     "developer": {
