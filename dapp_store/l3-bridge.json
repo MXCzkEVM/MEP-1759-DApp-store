@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "L3 Bridge",
-    "URL": "https://erc20.mxc.com/",
+    "URL": "https://erc20.moonchain.com/",
     "version": "1.0.0",
     "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens.",
     "developer": {
