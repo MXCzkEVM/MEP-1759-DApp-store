@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "L2 Bridge",
-    "URL": "https://bridge.mxc.com/",
+    "URL": "https://bridge.moonchain.com/",
     "version": "1.0.0",
     "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens.",
     "developer": {
