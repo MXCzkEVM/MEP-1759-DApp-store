@@ -1,8 +1,8 @@
 {
   "app": {
     "name": "Mining Application",
-    "URL": "https://mining.matchx.io/",
-    "version": "1.0.0",
+    "URL": "https://miningv2.matchx.io/",
+    "version": "2.0.0",
     "description": "Mining Application to mine MXC tokens",
     "developer": {
       "name": "MatchX GmbH",
