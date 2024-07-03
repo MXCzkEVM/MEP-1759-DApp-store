@@ -71,7 +71,7 @@
       "enabled": true
     },
     {
-      "dappUrl": "zkevm-mining.json",
+      "dappUrl": "moonchain-mining.json",
       "enabled": true
     },
     {
