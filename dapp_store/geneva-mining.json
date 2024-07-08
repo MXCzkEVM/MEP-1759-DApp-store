@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "Mining Application",
-    "URL": "https://geneva-mining.matchx.io/",
+    "URL": "https://geneva-miningv2.vercel.app",
     "version": "1.0.0",
     "description": "Mining Application to mine MXC tokens",
     "developer": {
