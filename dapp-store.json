@@ -75,6 +75,10 @@
       "enabled": true
     },
     {
+      "dappUrl": "moonchain-miningv2.json",
+      "enabled": true
+    },
+    {
       "dappUrl": "matchx-store.json",
       "enabled": true
     },
