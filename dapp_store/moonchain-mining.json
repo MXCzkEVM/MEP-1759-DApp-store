@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Mining Application",
+    "name": "Mining",
     "URL": "https://mining.matchx.io/",
     "version": "1.0.0",
     "description": "Mining Application to mine MXC tokens",

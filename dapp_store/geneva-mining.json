@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Mining Application",
+    "name": "Mining",
     "URL": "https://geneva-miningv2.vercel.app",
     "version": "1.0.0",
     "description": "Mining Application to mine MXC tokens",
@@ -9,7 +9,7 @@
       "contact": "support@matchx.io",
       "support": {
         "email": "support@matchx.io",
-        "website": "https://matchx.io/"
+        "website": "https://moonchain.com/"
       }
     },
     "permissions": {
@@ -50,7 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
-    "icon": "mxc_dapps_thumbnails/mining.svg",
+    "icon": "mxc_dapps_thumbnails/miningv2-moonbase.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/mining-small.png",
       "iconLarge": "mxc_dapps_thumbnails/mining-medium.png",
