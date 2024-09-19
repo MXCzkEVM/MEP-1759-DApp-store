@@ -9,7 +9,7 @@
       "contact": "support@mxc.org",
       "support": {
         "email": "support@mxc.org",
-        "website": "https://www.mxc.org/"
+        "website": "https://www.moonchain.com/"
       }
     },
     "permissions": {
@@ -49,7 +49,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
-    "icon": "mxc_dapps_thumbnails/nft.svg",
+    "icon": "mxc_dapps_thumbnails/NFT-moonbase.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/nft-small.png",
       "iconLarge": "mxc_dapps_thumbnails/nft-medium.png",
