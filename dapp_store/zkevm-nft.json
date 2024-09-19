@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "NFT Digitalize you assets",
+    "name": "NFT",
     "URL": "https://nft.moonchain.com/",
     "version": "1.0.0",
     "description": "MXC zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs for the real world collectables.",
