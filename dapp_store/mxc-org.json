@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC",
-    "URL": "https://www.mxc.org/",
+    "name": "Moonchain",
+    "URL": "https://www.moonchain.com/",
     "version": "1.0.0",
-    "description": "Welcome to MXC, leading Layer 3 network",
+    "description": "Welcome to Moonchain, leading Layer 3 network",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -21,7 +21,7 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC",
+        "name": "Moonchain",
         "description": "Welcome to MXC, leading Layer 3 network"
       },
       "es": {
@@ -50,7 +50,7 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
-    "icon": "mxc_dapps_thumbnails/mxc.svg",
+    "icon": "mxc_dapps_thumbnails/moonchain.svg",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/mxc-small.png",
       "iconLarge": "mxc_dapps_thumbnails/mxc-medium.png",
