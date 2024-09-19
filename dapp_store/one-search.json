@@ -1,15 +1,15 @@
 {
   "app": {
-    "name": "OneSearch",
-    "URL": "https://www.onesearch.com/",
+    "name": "DuckDuckGo",
+    "URL": "https://duckduckgo.com/",
     "version": "1.0.0",
     "description": "Privacy-focused search engine for you.",
     "developer": {
-      "name": "OneSearch",
+      "name": "DuckDuckGo",
       "contact": "",
       "support": {
         "email": "",
-        "website": "https://www.onesearch.com/"
+        "website": "https://duckduckgo.com/"
       }
     },
     "permissions": {
@@ -21,7 +21,7 @@
     },
     "localizations": {
       "en": {
-        "name": "OneSearch",
+        "name": "DuckDuckgo",
         "description": "Privacy-focused search engine for you."
       },
       "es": {
