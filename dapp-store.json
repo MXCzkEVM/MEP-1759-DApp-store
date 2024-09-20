@@ -47,7 +47,7 @@
     },
     {
       "dappUrl": "zkevm-xsd.json",
-      "enabled": true
+      "enabled": false
     },
     {
       "dappUrl": "moonchain-airdrop-dashboard.json",
@@ -80,7 +80,7 @@
     },
     {
       "dappUrl": "matchx-store.json",
-      "enabled": true
+      "enabled": false
     },
     {
       "dappUrl": "mxc-org.json",
@@ -112,6 +112,10 @@
     },
     {
       "dappUrl": "geneva-mns.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "moonchain-cxyz.json",
       "enabled": true
     },
     {
