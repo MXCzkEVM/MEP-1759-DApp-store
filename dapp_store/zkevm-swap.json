@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Swap Tokens",
+    "name": "DEX",
     "URL": "https://swap.moonchain.com",
     "version": "1.0.0",
     "description": "You can swap wide range of tokens effortlessly with minimal fees.",
