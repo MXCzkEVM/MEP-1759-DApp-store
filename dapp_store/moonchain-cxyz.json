@@ -1,15 +1,15 @@
 {
   "app": {
-    "name": "DEX",
-    "URL": "https://swap.moonchain.com",
+    "name": "C.XYZ store",
+    "URL": "https://c.xyz",
     "version": "1.0.0",
-    "description": "You can swap wide range of tokens effortlessly with minimal fees.",
+    "description": "One stop place to buy all DePIN Products",
     "developer": {
-      "name": "mxc.com",
-      "contact": "support@mxc.org",
+      "name": "C.xyz",
+      "contact": "support@c.xyz",
       "support": {
-        "email": "support@mxc.org",
-        "website": "https://www.moonchain.com/"
+        "email": "support@c.xyz",
+        "website": "https://c.xyz/"
       }
     },
     "permissions": {
@@ -21,8 +21,8 @@
     },
     "localizations": {
       "en": {
-        "name": "Swap Tokens",
-        "description": "You can swap wide range of tokens effortlessly with minimal fees."
+        "name": "MatchX store",
+        "description": "One stop place to buy all MatchX Products"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
@@ -50,13 +50,13 @@
     "body": {
       "mnsId": "newrd.mxc"
     },
-    "icon": "mxc_dapps_thumbnails/swap-moonbase.svg",
+    "icon": "mxc_dapps_thumbnails/cxyz.svg",
     "icons": {
-      "iconSmall": "mxc_dapps_thumbnails/mxc-swap-small.png",
-      "iconLarge": "mxc_dapps_thumbnails/mxc-swap-medium.png",
+      "iconSmall": "mxc_dapps_thumbnails/store-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/store-medium.png",
       "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
       "lease": "24 months",
-      "islarge": true
+      "islarge": false
     }
   }
 }
