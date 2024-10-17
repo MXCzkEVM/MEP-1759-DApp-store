@@ -4,6 +4,7 @@
     "URL": "https://geneva-nft.moonchain.com/",
     "version": "1.0.0",
     "description": "MXC zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs for the real world collectables.",
+    "providerType": "native",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -50,6 +51,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/NFT-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/nft.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/nft-small.png",
       "iconLarge": "mxc_dapps_thumbnails/nft-medium.png",

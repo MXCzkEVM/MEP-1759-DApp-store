@@ -4,6 +4,7 @@
     "URL": "https://geneva-faucet.moonchain.com/",
     "version": "1.0.0",
     "description": "FAUCET Platform for Geneva Moonchain",
+    "providerType": "native",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -48,6 +49,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/faucet.svg",
+    "iconV2": "mxc_dapps_thumbnails/faucet.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/geneva-faucet.png",
       "iconLarge": "mxc_dapps_thumbnails/geneva-faucet.png",

@@ -4,6 +4,7 @@
     "URL": "https://c.xyz",
     "version": "1.0.0",
     "description": "One stop place to buy all DePIN Products",
+    "providerType": "thirdParty",
     "developer": {
       "name": "C.xyz",
       "contact": "support@c.xyz",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/cxyz.svg",
+    "iconV2": "mxc_dapps_thumbnails/cxyz.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/store-small.png",
       "iconLarge": "mxc_dapps_thumbnails/store-medium.png",

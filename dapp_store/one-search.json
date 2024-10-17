@@ -4,6 +4,7 @@
     "URL": "https://duckduckgo.com/",
     "version": "1.0.0",
     "description": "Privacy-focused search engine for you.",
+    "providerType": "thirdParty",
     "developer": {
       "name": "DuckDuckGo",
       "contact": "",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/oneSearch-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/one_search.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/onesearch-small.png",
       "iconLarge": "mxc_dapps_thumbnails/onesearch-medium.png",

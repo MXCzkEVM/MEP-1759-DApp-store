@@ -4,6 +4,7 @@
     "URL": "https://discodistro.vercel.app",
     "version": "1.0.0",
     "description": "This dApp will allow users to create and deploy their own tokens",
+    "providerType": "thirdParty",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/discoDistro-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/disco_distro.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/createtoken-small.png",
       "iconLarge": "mxc_dapps_thumbnails/createtoken-medium.png",

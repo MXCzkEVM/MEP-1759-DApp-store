@@ -4,6 +4,7 @@
     "URL": "https://www.tailz.xyz/",
     "version": "1.0.0",
     "description": "Tailz enables anyone to walk their pets and earn crypto as a result.",
+    "providerType": "thirdParty",
     "developer": {
       "name": "Tailz",
       "contact": "support@tailz.xyz",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/tailz-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/tailz.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/tailz-small.png",
       "iconLarge": "mxc_dapps_thumbnails/tailz-medium.png",

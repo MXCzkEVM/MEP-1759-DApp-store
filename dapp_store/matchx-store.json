@@ -4,6 +4,7 @@
     "URL": "https://matchx.io/collections/all",
     "version": "1.0.0",
     "description": "One stop place to buy all MatchX Products",
+    "providerType": "native",
     "developer": {
       "name": "MatchX GmbH",
       "contact": "support@matchx.io",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/matchx.svg",
+    "iconV2": "mxc_dapps_thumbnails/mns.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/store-small.png",
       "iconLarge": "mxc_dapps_thumbnails/store-medium.png",

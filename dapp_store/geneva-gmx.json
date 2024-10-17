@@ -4,6 +4,7 @@
     "URL": "https://mxc-frontend.vercel.app/#/trade",
     "version": "1.0.0",
     "description": "MXC GMX Leverage Platform",
+    "providerType": "native",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/gmx.svg",
+    "iconV2": "mxc_dapps_thumbnails/gmx.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/gmx-small.png",
       "iconLarge": "mxc_dapps_thumbnails/gmx-medium.png",

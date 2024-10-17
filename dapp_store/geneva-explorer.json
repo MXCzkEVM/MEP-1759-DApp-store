@@ -3,6 +3,7 @@
     "name": "Explorer",
     "URL": "https://geneva-explorer.moonchain.com/",
     "version": "1.0.0",
+    "providerType": "native",
     "description": "Welcome to Moonchain Geneva Explorer",
     "developer": {
       "name": "mxc.com",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/explorer-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/explorer.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/explorer-small.png",
       "iconLarge": "mxc_dapps_thumbnails/explorer-medium.png",

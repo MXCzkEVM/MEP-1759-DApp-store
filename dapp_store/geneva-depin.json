@@ -4,6 +4,7 @@
     "URL": "https://geneva-depinscriptions.moonchain.com/",
     "version": "1.0.0",
     "description": "You can mint your country DePINscriptions with your locations",
+    "providerType": "native",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -51,6 +52,7 @@
       "mnsId": "newrd.mxc"
     },
     "icon": "mxc_dapps_thumbnails/dePINscriptions-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/depin.png",
     "icons": {
       "iconSmall": "mxc_dapps_thumbnails/depinscriptions-small.png",
       "iconLarge": "mxc_dapps_thumbnails/depinscriptions-medium.png",
