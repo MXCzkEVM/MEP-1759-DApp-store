@@ -57,7 +57,10 @@
       "dappUrl": "moonchain-blueberryring.json",
       "enabled": true
     },
-
+    {
+      "dappUrl": "geneva-blueberryring.json",
+      "enabled": true
+    },
     {
       "dappUrl": "geneva-gmx.json",
       "enabled": true
