@@ -4,6 +4,7 @@
     "URL": "https://app.blueberryring.com/",
     "version": "1.0.0",
     "description": "Welcome to MXC Moonchain BlueberryRing",
+    "providerType": "thirdParty",
     "developer": {
       "name": "blueberryring.com",
       "contact": "hello@blueberryring.com",
