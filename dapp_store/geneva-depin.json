@@ -3,7 +3,7 @@
     "name": "DePINscriptions",
     "URL": "https://geneva-depinscriptions.moonchain.com/",
     "version": "1.0.0",
-    "description": "You can mint your country DePINscriptions with your locations",
+    "description": "Mint your territory, with DePINscriptions the world is yours",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "Swap Tokens",
-        "description": "You can swap wide range of tokens effortlessly with minimal fees."
+        "name": "DePINscriptions",
+        "description": "Mint your territory, with DePINscriptions the world is yours"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

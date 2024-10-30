@@ -3,7 +3,7 @@
     "name": "Explorer",
     "URL": "https://explorer.moonchain.com/",
     "version": "1.0.0",
-    "description": "Welcome to Moonchain Explorer",
+    "description": "Welcome to the Moonchain Explorer.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "Moonchain Explorer",
-        "description": "Welcome to Moonchain Explorer"
+        "name": "Explorer",
+        "description": "Welcome to the Moonchain Explorer."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

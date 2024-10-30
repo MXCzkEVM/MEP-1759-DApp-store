@@ -3,7 +3,7 @@
     "name": "NFT",
     "URL": "https://nft.moonchain.com/",
     "version": "1.0.0",
-    "description": "MXC zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs for the real world collectables.",
+    "description": "Moonchain zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs of real world collectables.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "NFT",
-        "description": "MXC zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs for the real world collectables."
+        "description": "Moonchain zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs of real world collectables."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

@@ -3,7 +3,7 @@
     "name": "MNS",
     "URL": "https://mns.moonchain.com/",
     "version": "1.0.0",
-    "description": "MXC Name Service",
+    "description": "Moonchain Name Service.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "MNS",
-        "description": "MXC Name Service"
+        "description": "Moonchain Name Service."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

@@ -3,7 +3,7 @@
     "name": "L2 Bridge",
     "URL": "https://bridge.moonchain.com/",
     "version": "1.0.0",
-    "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens.",
+    "description": "Move tokens seamlessly With the L2 - L3 Moonchain bridge.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "L2 Bridge",
-        "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens."
+        "description": "Move tokens seamlessly With the L2 - L3 Moonchain bridge."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

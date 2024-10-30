@@ -3,7 +3,7 @@
     "name": "Mining V2",
     "URL": "https://miningv2.matchx.io/",
     "version": "1.0.0",
-    "description": "Mining Application to mine MXC tokens",
+    "description": "Intuitive Mining Application, mine Moonchain now.",
     "providerType": "native",
     "developer": {
       "name": "MatchX GmbH",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "Mining Application V2",
-        "description": "Mining Application to mine MXC tokens"
+        "name": "Mining V2",
+        "description": "Intuitive Mining Application, mine Moonchain now."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

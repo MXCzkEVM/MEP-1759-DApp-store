@@ -3,7 +3,7 @@
     "name": "XSD Stable Coin",
     "URL": "https://xsd.moonchain.com/",
     "version": "1.0.0",
-    "description": "XSD Stable Coin",
+    "description": "XSD Stable Coin.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "XSD Stable Coin",
-        "description": "XSD Stable Coin"
+        "description": "XSD Stable Coin."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

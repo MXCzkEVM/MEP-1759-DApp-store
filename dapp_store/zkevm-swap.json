@@ -3,7 +3,7 @@
     "name": "DEX",
     "URL": "https://swap.moonchain.com",
     "version": "1.0.0",
-    "description": "You can swap wide range of tokens effortlessly with minimal fees.",
+    "description": "Your Decentralized Exchange, powered by Moonchain.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "Swap Tokens",
-        "description": "You can swap wide range of tokens effortlessly with minimal fees."
+        "name": "DEX",
+        "description": "Your Decentralized Exchange, powered by Moonchain."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

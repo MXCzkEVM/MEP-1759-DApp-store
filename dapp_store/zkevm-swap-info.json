@@ -3,7 +3,7 @@
     "name": "Swap Info",
     "URL": "https://swap-info.moonchain.com/",
     "version": "1.0.0",
-    "description": "You can get Swap Analytics and Statistics",
+    "description": "Check real-time Swap Analytics & Statistics.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Swap Info",
-        "description": "You can get Swap Analytics and Statistics"
+        "description": "Check real-time Swap Analytics & Statistics."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

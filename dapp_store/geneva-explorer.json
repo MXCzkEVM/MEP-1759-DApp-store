@@ -4,7 +4,7 @@
     "URL": "https://geneva-explorer.moonchain.com/",
     "version": "1.0.0",
     "providerType": "native",
-    "description": "Welcome to Moonchain Geneva Explorer",
+    "description": "Welcome to the Moonchain Geneva Explorer.",
     "developer": {
       "name": "mxc.com",
       "contact": "support@mxc.org",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Moonchain Geneva Explorer",
-        "description": "Welcome to Moonchain Geneva Explorer"
+        "description": "Welcome to the Moonchain Geneva Explorer."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

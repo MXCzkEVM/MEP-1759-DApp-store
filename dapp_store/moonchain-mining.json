@@ -3,7 +3,7 @@
     "name": "IoT",
     "URL": "https://mining.matchx.io/",
     "version": "1.0.0",
-    "description": "Mining Application to mine MXC tokens",
+    "description": "Intuitive Mining Application, mine Moonchain now.",
     "providerType": "native",
     "developer": {
       "name": "MatchX GmbH",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Mining Application",
-        "description": "Mining Application to mine MXC tokens"
+        "description": "Intuitive Mining Application, mine Moonchain now."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

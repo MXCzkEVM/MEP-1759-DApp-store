@@ -3,7 +3,7 @@
     "name": "Tailz store",
     "URL": "https://www.tailz.xyz/",
     "version": "1.0.0",
-    "description": "Tailz enables anyone to walk their pets and earn crypto as a result.",
+    "description": "Tailz enables anyone to walk their pets and earn crypto.",
     "providerType": "thirdParty",
     "developer": {
       "name": "Tailz",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Tailz store",
-        "description": "Tailz enables anyone to walk their pets and earn crypto as a result."
+        "description": "Tailz enables anyone to walk their pets and earn crypto."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

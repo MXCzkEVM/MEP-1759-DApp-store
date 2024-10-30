@@ -3,7 +3,7 @@
     "name": "BlueberryRing",
     "URL": "https://app.blueberryring.com/",
     "version": "1.0.0",
-    "description": "Welcome to MXC Moonchain BlueberryRing",
+    "description": "Welcome to Web3 Wearables, where Health is Wealth.",
     "providerType": "thirdParty",
     "developer": {
       "name": "blueberryring.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "UXUYxBlueberryRing",
-        "description": "Welcome to MXC Moonchain BlueberryRing"
+        "description": "Welcome to Web3 Wearables, where Health is Wealth."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

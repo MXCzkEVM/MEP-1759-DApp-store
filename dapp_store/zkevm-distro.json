@@ -3,7 +3,7 @@
     "name": "Disco Distro",
     "URL": "https://discodistro.vercel.app",
     "version": "1.0.0",
-    "description": "This dApp will allow users to create and deploy their own tokens",
+    "description": "Deploy your token on Disco Distro.",
     "providerType": "thirdParty",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Disco Distro",
-        "description": "This dApp will allow users to create and deploy their own tokens"
+        "description": "Deploy your token on Disco Distro."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

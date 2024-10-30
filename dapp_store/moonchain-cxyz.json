@@ -3,7 +3,7 @@
     "name": "C.XYZ store",
     "URL": "https://c.xyz",
     "version": "1.0.0",
-    "description": "One stop place to buy all DePIN Products",
+    "description": "Your one-stop DePin-WearFi Shop.",
     "providerType": "thirdParty",
     "developer": {
       "name": "C.xyz",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MatchX store",
-        "description": "One stop place to buy all MatchX Products"
+        "name": "C.XYZ store",
+        "description": "Your one-stop DePin-WearFi Shop."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

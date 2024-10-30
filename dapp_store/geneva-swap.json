@@ -3,7 +3,7 @@
     "name": "Swap Tokens",
     "URL": "https://geneva-swap.moonchain.com/",
     "version": "1.0.0",
-    "description": "You can swap wide range of tokens effortlessly with minimal fees.",
+    "description": "Swap a wide range of tokens effortlessly with low fees.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Swap Tokens",
-        "description": "You can swap wide range of tokens effortlessly with minimal fees."
+        "description": "Swap a wide range of tokens effortlessly with low fees."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

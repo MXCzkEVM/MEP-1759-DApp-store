@@ -3,7 +3,7 @@
     "name": "Bridge & Faucet",
     "URL": "https://wannsee-bridge.mxc.com/",
     "version": "1.0.0",
-    "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens.",
+    "description": "With our purpose-built L2 to L3 bridge, move tokens seamlessly.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "Bridge & Faucet",
-        "description": "With our purpose-build L1 to L3 bridge, you can seamlessly move tokens."
+        "description": "With our purpose-built L2 to L3 bridge, move tokens seamlessly."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

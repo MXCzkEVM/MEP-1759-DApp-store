@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "MXC GMX",
+    "name": "Moonchain GMX",
     "URL": "https://mxc-frontend.vercel.app/#/trade",
     "version": "1.0.0",
-    "description": "MXC GMX Leverage Platform",
+    "description": "Moonchain's GMX powered Leverage Platform.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC GMX",
-        "description": "MXC GMX Leverage Platform"
+        "name": "Moonchain GMX",
+        "description": "Moonchain's GMX powered Leverage Platform."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

@@ -3,7 +3,7 @@
     "name": "DuckDuckGo",
     "URL": "https://duckduckgo.com/",
     "version": "1.0.0",
-    "description": "Privacy-focused search engine for you.",
+    "description": "Your Privacy-focused search engine.",
     "providerType": "thirdParty",
     "developer": {
       "name": "DuckDuckGo",
@@ -23,7 +23,7 @@
     "localizations": {
       "en": {
         "name": "DuckDuckgo",
-        "description": "Privacy-focused search engine for you."
+        "description": "Your Privacy-focused search engine."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",

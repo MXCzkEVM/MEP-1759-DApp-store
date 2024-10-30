@@ -3,7 +3,7 @@
     "name": "Leaderboard",
     "URL": "https://airdrop.moonchain.com/",
     "version": "1.0.0",
-    "description": "One stop place to check your progress towards airdrops and leaderboard.",
+    "description": "Check your airdrop & reward progress.",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "MXC Airdrop Portal",
-        "description": "One stop place to check your progress towards airdrops and leaderboard."
+        "name": "Leaderboard",
+        "description": "Check your airdrop & reward progress."
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
