@@ -75,7 +75,7 @@
     },
     {
       "dappUrl": "moonchain-mining.json",
-      "enabled": false
+      "enabled": true
     },
     {
       "dappUrl": "moonchain-miningv2.json",
