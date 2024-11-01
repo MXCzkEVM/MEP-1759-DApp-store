@@ -3,7 +3,7 @@
     "name": "NFT",
     "URL": "https://geneva-nft.moonchain.com/",
     "version": "1.0.0",
-    "description": "We combine LPWAN & NFC Tech to track, authenticate & submit proof of location",
+    "description": "We combine LPWAN & NFC Tech to track, authenticate & submit proof",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
