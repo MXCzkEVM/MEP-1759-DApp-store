@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "New L3 Bridge",
-    "URL": "https://jannowitz-bridge.moonchain.com/",
+    "name": "L2-L3 Bridge",
+    "URL": "https://jannowitz.moonchain.com/",
     "version": "1.0.0",
-    "description": "Move tokens seamlessly With the L1 - L3 Moonchain bridge",
+    "description": "Move tokens seamlessly With the L2 - L3 Moonchain bridge",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "New L3 Bridge",
-        "description": "Move tokens seamlessly With the L1 - L3 Moonchain bridge"
+        "name": "L2L3 Bridge",
+        "description": "Move tokens seamlessly With the L2 - L3 Moonchain bridge"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
@@ -39,7 +39,7 @@
   "store": {
     "mnsid": "newrd.mxc",
     "category": "defi.mxc",
-    "chainid": "5167004"
+    "chainid": "18686"
   },
   "reviewAPI": {
     "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
