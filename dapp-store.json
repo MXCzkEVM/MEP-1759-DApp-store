@@ -74,10 +74,6 @@
       "enabled": true
     },
     {
-      "dappUrl": "geneva-new-bridge.json",
-      "enabled": true
-    },
-    {
       "dappUrl": "moonchain-mining.json",
       "enabled": false
     },
