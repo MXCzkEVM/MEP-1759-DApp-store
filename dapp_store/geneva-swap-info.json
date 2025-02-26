@@ -31,7 +31,7 @@
       }
     },
     "ageRating": "12+",
-    "supportedPlatforms": ["android"]
+    "supportedPlatforms": ["android", "iOS"]
   },
   "store": {
     "mnsid": "newrd.mxc",
