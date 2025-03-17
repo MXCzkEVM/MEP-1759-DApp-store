@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "L2-L3 Bridge",
-    "URL": "https://jannowitz.moonchain.com/",
+    "URL": " https://jannowitz-bridge.moonchain.com/",
     "version": "1.0.0",
     "description": "Move tokens seamlessly With the L2 - L3 Moonchain bridge",
     "providerType": "native",
