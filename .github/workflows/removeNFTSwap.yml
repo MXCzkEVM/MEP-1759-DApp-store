@@ -1,7 +1,9 @@
 name: Remove iOS from supportedPlatforms
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - gh-on/off-nft-swap-demo
 
 jobs:
   remove_ios:
