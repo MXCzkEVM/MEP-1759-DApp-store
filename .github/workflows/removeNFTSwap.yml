@@ -5,11 +5,6 @@ on:
   #   branches:
   #     - gh-on/off-nft-swap-demo
   workflow_dispatch:
-    inputs:
-      remove_ios:
-        description: 'Remove iOS from supportedPlatforms in JSON files'
-        required: true
-        default: 'true'
 
 jobs:
   remove_ios:

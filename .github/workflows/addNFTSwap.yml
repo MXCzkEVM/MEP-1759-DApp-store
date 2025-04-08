@@ -1,9 +1,10 @@
 name: Add iOS to supportedPlatforms
 
 on:
-  push:
-    branches:
-      - gh-on/off-nft-swap-demo
+  # push:
+  #   branches:
+  #     - gh-on/off-nft-swap-demo
+  workflow_dispatch:
 
 jobs:
   add_ios:
