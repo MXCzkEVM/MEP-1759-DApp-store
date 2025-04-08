@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Read and Modify JSON files
+      - name: Read and Modify supportedPlatforms in JSON files
         id: modify_json
         shell: python
         run: |
@@ -48,10 +48,11 @@ jobs:
                 continue
 
             modified = False
-            if "app" in data and "supportedPlatforms" in data["app"] and "iOS" in data["app"]["supportedPlatforms"]:
-              data["app"]["supportedPlatforms"].remove("iOS")
-              print(f"'iOS' removed from supportedPlatforms in {file_path}")
-              modified = True
+            if "app" in data and "supportedPlatforms" in data["app"]:
+              if "iOS" in data["app"]["supportedPlatforms"]:
+                data["app"]["supportedPlatforms"].remove("iOS")
+                print(f"'iOS' removed from supportedPlatforms in {file_path}")
+                modified = True
 
             if modified:
               with open(file_path, 'w') as f:
