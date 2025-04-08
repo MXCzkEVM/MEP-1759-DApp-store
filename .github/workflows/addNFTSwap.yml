@@ -1,18 +1,12 @@
-name: Remove iOS from supportedPlatforms
+name: Add iOS to supportedPlatforms
 
 on:
-  # push:
-  #   branches:
-  #     - gh-on/off-nft-swap-demo
-  workflow_dispatch:
-    inputs:
-      remove_ios:
-        description: 'Remove iOS from supportedPlatforms in JSON files'
-        required: true
-        default: 'true'
+  push:
+    branches:
+      - gh-on/off-nft-swap-demo
 
 jobs:
-  remove_ios:
+  add_ios:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -53,9 +47,9 @@ jobs:
 
             modified = False
             if "app" in data and "supportedPlatforms" in data["app"]:
-              if "iOS" in data["app"]["supportedPlatforms"]:
-                data["app"]["supportedPlatforms"] = [platform for platform in data["app"]["supportedPlatforms"] if platform != "iOS"]
-                print(f"'iOS' removed from supportedPlatforms in {file_path}")
+              if "iOS" not in data["app"]["supportedPlatforms"]:
+                data["app"]["supportedPlatforms"].append("iOS")
+                print(f"'iOS' added to supportedPlatforms in {file_path}")
                 modified = True
 
             if modified:
@@ -68,7 +62,7 @@ jobs:
               except IOError as e:
                 print(f"Error writing to {file_path}: {e}")
             else:
-              print(f"'iOS' not found in supportedPlatforms in {file_path}, skipping.")
+              print(f"'iOS' already present in supportedPlatforms in {file_path}, skipping.")
 
           print(f"::set-output name=modified_json_content::{json.dumps(modified_files_content)}")
 
@@ -86,7 +80,7 @@ jobs:
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Remove iOS from supportedPlatforms in JSON files"
+          commit_message: "Add iOS to supportedPlatforms in JSON files"
           push_options: "" # Removed --force, consider your branching strategy
           file_pattern: "dapp_store/*.json"
           branch: gh-on/off-nft-swap-demo
