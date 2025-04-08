@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Read and Modify JSON files
         id: modify_json
@@ -60,20 +60,20 @@ jobs:
 
           print(f"::set-output name=modified_json_content::{json.dumps(modified_files_content)}")
 
-      - name: Print Modified JSON Content
-        if: steps.modify_json.outputs.modified_json_content != '{}'
-        run: |
-          import json
-          modified_content = json.loads('${{ steps.modify_json.outputs.modified_json_content }}')
-          echo "--- Modified JSON Content ---"
-          for file, content in modified_content.items():
-            echo "File: $file"
-            echo "$content"
-            echo "---"
+      # - name: Print Modified JSON Content
+      #   if: steps.modify_json.outputs.modified_json_content != '{}'
+      #   run: |
+      #     import json
+      #     modified_content = json.loads('${{ steps.modify_json.outputs.modified_json_content }}')
+      #     echo "--- Modified JSON Content ---"
+      #     for file, content in modified_content.items():
+      #       echo "File: $file"
+      #       echo "$content"
+      #       echo "---"
 
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Remove iOS from supportedPlatforms in JSON files'
-          push_options: '--force' # Be cautious with --force
-          file_pattern: 'dapp_store/*.json'
+          commit_message: "Remove iOS from supportedPlatforms in JSON files"
+          push_options: "--force" # Be cautious with --force
+          file_pattern: "dapp_store/*.json"
