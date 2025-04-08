@@ -26,12 +26,14 @@
         "description": "Check real-time Swap Analytics & Statistics."
       },
       "es": {
-        "name": "El Nombre de tu Aplicación",
-        "description": "Una breve descripción de tu aplicación"
+        "name": "El Nombre de tu Aplicaci\u00f3n",
+        "description": "Una breve descripci\u00f3n de tu aplicaci\u00f3n"
       }
     },
     "ageRating": "12+",
-    "supportedPlatforms": ["android", "iOS"]
+    "supportedPlatforms": [
+      "android"
+    ]
   },
   "store": {
     "mnsid": "newrd.mxc",
