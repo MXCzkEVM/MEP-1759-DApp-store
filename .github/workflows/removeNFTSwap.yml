@@ -54,10 +54,10 @@ jobs:
 
             if modified:
               try:
-                with open(file_path, 'w') as f:
-                  json.dump(data, f, indent=2)
-                print(f"{file_path} updated.")
-                with open(file_path, 'r') as f:
+                with open(file_path, 'w', encoding='utf-8') as f:
+                  json.dump(data, f, indent=2, ensure_ascii=False)
+                print(f"{file_path} updated with original characters.")
+                with open(file_path, 'r', encoding='utf-8') as f:
                   modified_files_content[file_path] = f.read()
               except IOError as e:
                 print(f"Error writing to {file_path}: {e}")
