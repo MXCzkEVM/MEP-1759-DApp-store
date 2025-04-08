@@ -26,14 +26,12 @@
         "description": "Moonchain zkEVM uses LPWAN and NFC technology to track authenticate, and submit location proofs of real world collectables."
       },
       "es": {
-        "name": "El Nombre de tu Aplicaci\u00f3n",
-        "description": "Una breve descripci\u00f3n de tu aplicaci\u00f3n"
+        "name": "El Nombre de tu Aplicación",
+        "description": "Una breve descripción de tu aplicación"
       }
     },
     "ageRating": "12+",
-    "supportedPlatforms": [
-      "android"
-    ]
+    "supportedPlatforms": ["android", "iOS"]
   },
   "store": {
     "mnsid": "newrd.mxc",
