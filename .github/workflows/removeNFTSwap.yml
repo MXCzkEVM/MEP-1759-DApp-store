@@ -9,8 +9,6 @@ jobs:
   remove_ios:
     runs-on: ubuntu-latest
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
       contents: write
     steps:
       - name: Checkout repository
@@ -40,26 +38,29 @@ jobs:
               print(f"Error: File not found at {file_path}")
               continue
 
-            with open(file_path, 'r') as f:
-              try:
+            try:
+              with open(file_path, 'r') as f:
                 data = json.load(f)
-              except json.JSONDecodeError as e:
-                print(f"Error decoding JSON in {file_path}: {e}")
-                continue
+            except json.JSONDecodeError as e:
+              print(f"Error decoding JSON in {file_path}: {e}")
+              continue
 
             modified = False
             if "app" in data and "supportedPlatforms" in data["app"]:
               if "iOS" in data["app"]["supportedPlatforms"]:
-                data["app"]["supportedPlatforms"].remove("iOS")
+                data["app"]["supportedPlatforms"] = [platform for platform in data["app"]["supportedPlatforms"] if platform != "iOS"]
                 print(f"'iOS' removed from supportedPlatforms in {file_path}")
                 modified = True
 
             if modified:
-              with open(file_path, 'w') as f:
-                json.dump(data, f, indent=2)
-              print(f"{file_path} updated.")
-              with open(file_path, 'r') as f:
-                modified_files_content[file_path] = f.read()
+              try:
+                with open(file_path, 'w') as f:
+                  json.dump(data, f, indent=2)
+                print(f"{file_path} updated.")
+                with open(file_path, 'r') as f:
+                  modified_files_content[file_path] = f.read()
+              except IOError as e:
+                print(f"Error writing to {file_path}: {e}")
             else:
               print(f"'iOS' not found in supportedPlatforms in {file_path}, skipping.")
 
@@ -80,7 +81,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Remove iOS from supportedPlatforms in JSON files"
-          push_options: "--force" # Be cautious with --force
+          push_options: "" # Removed --force, consider your branching strategy
           file_pattern: "dapp_store/*.json"
           branch: gh-on/off-nft-swap-demo
           repository: .
