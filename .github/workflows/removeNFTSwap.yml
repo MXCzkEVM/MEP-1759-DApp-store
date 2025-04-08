@@ -23,7 +23,11 @@ jobs:
           import json
           import os
 
-          file_paths = ['geneva-nft.json', 'geneva-swap-info.json', 'geneva-swap.json']
+          file_paths = [
+              'dapp_store/geneva-nft.json',
+              'dapp_store/geneva-swap-info.json',
+              'dapp_store/geneva-swap.json'
+          ]
 
           for file_path in file_paths:
             if not os.path.exists(file_path):
