@@ -8,6 +8,10 @@ on:
 jobs:
   remove_ios:
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -77,3 +81,5 @@ jobs:
           commit_message: "Remove iOS from supportedPlatforms in JSON files"
           push_options: "--force" # Be cautious with --force
           file_pattern: "dapp_store/*.json"
+          branch: gh-on/off-nft-swap-demo
+          repository: .
