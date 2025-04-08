@@ -1,0 +1,52 @@
+name: Remove iOS from supportedPlatforms
+
+on:
+  workflow_dispatch:
+
+jobs:
+  remove_ios:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Read and Modify JSON files
+        shell: python
+        run: |
+          import json
+          import os
+
+          file_paths = ['geneva-nft.json', 'geneva-swap-info.json', 'geneva-swap.json']
+
+          for file_path in file_paths:
+            if not os.path.exists(file_path):
+              print(f"Error: File not found at {file_path}")
+              continue
+
+            with open(file_path, 'r') as f:
+              try:
+                data = json.load(f)
+              except json.JSONDecodeError as e:
+                print(f"Error decoding JSON in {file_path}: {e}")
+                continue
+
+            if "app" in data and "supportedPlatforms" in data["app"] and "iOS" in data["app"]["supportedPlatforms"]:
+              data["app"]["supportedPlatforms"].remove("iOS")
+              print(f"'iOS' removed from supportedPlatforms in {file_path}")
+              with open(file_path, 'w') as f:
+                json.dump(data, f, indent=2)
+              print(f"{file_path} updated.")
+            else:
+              print(f"'iOS' not found in supportedPlatforms in {file_path}, skipping.")
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Remove iOS from supportedPlatforms in JSON files'
+          push_options: '--force' # Be cautious with --force
+          file_pattern: '*.json'
