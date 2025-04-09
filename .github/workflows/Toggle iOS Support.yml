@@ -1,9 +1,6 @@
 name: Toggle iOS Support
 
 on:
-  push:
-    branches:
-      - gh-on/off-nft-swap-demo
   workflow_dispatch:
     inputs:
       operation:
@@ -87,8 +84,8 @@ jobs:
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Toggle iOS support in JSON files"
+          commit_message: "Toggle iOS support: ${{ github.event.inputs.operation }} iOS in JSON files"
           push_options: ""
           file_pattern: "dapp_store/*.json"
-          branch: gh-on/off-nft-swap-demo
+          branch: main
           repository: .
