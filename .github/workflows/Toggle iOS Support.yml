@@ -1,6 +1,9 @@
 name: Toggle iOS Support
 
 on:
+  push:
+    branches:
+      - gh-on/off-nft-swap-demo
   workflow_dispatch:
     inputs:
       operation:
