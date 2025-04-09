@@ -28,9 +28,9 @@ jobs:
           import os
 
           file_paths = [
-              'dapp_store/geneva-nft.json',
-              'dapp_store/geneva-swap-info.json',
-              'dapp_store/geneva-swap.json'
+              'dapp_store/zkevm-nft.json',
+              'dapp_store/zkevm-swap-info.json',
+              'dapp_store/zkevm-swap.json'
           ]
           modified_files_content = {}
 
@@ -84,5 +84,5 @@ jobs:
           commit_message: "Remove iOS from supportedPlatforms in JSON files"
           push_options: "" # Removed --force, consider your branching strategy
           file_pattern: "dapp_store/*.json"
-          branch: gh-on/off-nft-swap-demo
+          branch: main
           repository: .
