@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "BlueberryRing",
-    "URL": "https://app.blueberryring.com/",
+    "URL": "https://testnet.blueberryring.com",
     "version": "1.0.0",
     "description": "Welcome to Web3 Wearables, where Health is Wealth.",
     "providerType": "thirdParty",
