@@ -1,9 +1,9 @@
 {
   "app": {
-    "name": "GENEVA FAUCET",
+    "name": "Faucet",
     "URL": "https://geneva-faucet.moonchain.com/",
     "version": "1.0.0",
-    "description": "FAUCET Platform for Geneva Moonchain",
+    "description": "Faucet Platform for Geneva Moonchain",
     "providerType": "native",
     "developer": {
       "name": "mxc.com",
@@ -22,8 +22,8 @@
     },
     "localizations": {
       "en": {
-        "name": "GENEVA FAUCET",
-        "description": "FAUCET Platform for Geneva Moonchain"
+        "name": "Faucet",
+        "description": "Faucet Platform for Geneva Moonchain"
       },
       "es": {
         "name": "El Nombre de tu Aplicación",
