@@ -22,6 +22,10 @@
       "enabled": true
     },
     {
+      "dappUrl": "zkevm-iho.json",
+      "enabled": true
+    },
+    {
       "dappUrl": "zkevm-explorer.json",
       "enabled": true
     },
