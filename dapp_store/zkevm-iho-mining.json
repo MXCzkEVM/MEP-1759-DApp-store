@@ -1,0 +1,60 @@
+{
+  "app": {
+    "name": "IHO",
+    "URL": "https://iho-mining.moonchain.com/",
+    "version": "1.0.0",
+    "description": "The Future of Hardware Mining is FREE!",
+    "providerType": "native",
+    "developer": {
+      "name": "mxc.com",
+      "contact": "support@mxc.org",
+      "support": {
+        "email": "support@mxc.org",
+        "website": "https://www.moonchain.com/"
+      }
+    },
+    "permissions": {
+      "notifications": "required",
+      "camera": "required",
+      "storage": "required",
+      "clipboard": "required",
+      "location": "required"
+    },
+    "localizations": {
+      "en": {
+        "name": "IHO",
+        "description": "The Future of Hardware Mining is FREE!"
+      }
+    },
+    "ageRating": "12+",
+    "supportedPlatforms": [
+      "android",
+      "iOS"
+    ]
+  },
+  "store": {
+    "mnsid": "newrd.mxc",
+    "category": "defi.mxc",
+    "chainid": "18686"
+  },
+  "reviewAPI": {
+    "url": "https://mxc-graph-node.mxc.com/subgraphs/review/yourmns",
+    "method": "GET",
+    "headers": {
+      "Authorization": "Bearer YOUR_AUTH_TOKEN",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "mnsId": "newrd.mxc"
+    },
+    "icon": "mxc_dapps_thumbnails/discoDistro-moonbase.svg",
+    "iconV2": "mxc_dapps_thumbnails/iho_mining.png",
+    "icons": {
+      "iconSmall": "mxc_dapps_thumbnails/createtoken-small.png",
+      "iconLarge": "mxc_dapps_thumbnails/createtoken-medium.png",
+      "namedhexagon": "0x393b4a89C836F0b93c1730AB07bEE1bC9cf7D8Eb",
+      "lease": "24 months",
+      "islarge": false
+    }
+  }
+}

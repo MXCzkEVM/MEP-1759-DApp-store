@@ -29,8 +29,12 @@
       "dappUrl": "zkevm-explorer.json",
       "enabled": true
     },
-    {
+     {
       "dappUrl": "zkevm-swap.json",
+      "enabled": true
+    },
+    {
+      "dappUrl": "zkevm-iho-mining.json",
       "enabled": true
     },
     {
