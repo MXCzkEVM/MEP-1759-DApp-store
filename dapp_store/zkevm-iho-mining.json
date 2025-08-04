@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "IHO",
-    "URL": "https://iho-mining.moonchain.com/",
+    "URL": "https://uat-iho-mining.moonchain.com/",
     "version": "1.0.0",
     "description": "The Future of Hardware Mining is FREE!",
     "providerType": "native",
